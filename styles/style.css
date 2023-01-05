@@ -211,3 +211,32 @@ section{
   margin-top: 50px;
   text-align: center;
 }
+.contact{
+  background-color: #FFF8F3;
+  margin-top: 30px;
+  padding: 206px 0;
+ 
+  
+}
+.contact-content{
+  display:flex;
+  gap: 100px;
+  margin: 0 230px;
+
+}
+.contact-form input[type="text"], input[type="email"], textarea{
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+  
+  border: none;
+  padding: 30px;
+}
+.contact-content a{
+  text-decoration: none;
+}
+.copyright{
+  text-align: center;
+  margin: 50px 0;
+}
+
