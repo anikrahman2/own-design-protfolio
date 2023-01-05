@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Nav Style */
+.header{
+  background: #FFF8F3;
+}
+.text-orange{
+  color: #FD6E0A;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  padding: 50px 0;
+}
+.nav-title{
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
+  font-family:'Manrope', sans-serif;
+}
+nav ul li{
+  display: inline;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  
+
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #474747;
+}
+.btn-primary{
+  color: #ffffff;
+  background: #FD6E0A;
+  width: 180px;
+  height: 64px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+
+}
+/* Header Banner */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+  padding: 100px 0 0 30px;
+  
+
+  
+}
+.banner-sub-title{
+  margin: 0 200px;
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title{
+  margin: 0 200px;
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-description{
+  margin: 0 200px;
+  color: #757575;
+  font-size: 18px;
+}
+.download{
+  margin: 30px 30px 30px 200px;
+}
+.btn-2nd{
+  color: #FD6E0A;
+  height: 64px;
+  width: 180px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+  
+
+}
+.section-top{
+  margin: 130px;
+}
+.section{
+  max-width: 1140px;
+  margin: 0 auto
+}
+.about-section-container{
+  background-color: #FFF8F3;
+  text-align: center;
+}
+.section-items{
+  padding: 130px 155px;
+}
+.about-section-description{
+  padding: 30px 0;
+  font-size: 18px;
+  color: #757575;
+}
+.about-section-title{
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  
+}
+
+.info-title{
+  color: #757575;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.info-description{
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+
+}
